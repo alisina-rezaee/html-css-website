@@ -204,7 +204,6 @@ header {
 .main-content {
   width: 100%;
   min-height: 500px;
-
   float: right;
   margin: 15px 0px;
 }
@@ -221,7 +220,6 @@ header {
 .left-content {
   width: 74%;
   min-height: 100%;
-
   float: left;
 }
 
@@ -244,6 +242,8 @@ header {
   float: right;
   direction: rtl;
   background-color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .content h3 {
@@ -255,12 +255,12 @@ header {
   width: 32%;
   height: 350px;
   background-color: #ededed;
-  float: right;
-  margin: 5px 6px;
+  margin: 4px 3px;
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+  display: inline-block;
 }
 
 .item:hover {
@@ -343,4 +343,68 @@ header {
   float: right;
   margin-right: 5px;
   line-height: 60px;
+}
+/*************sidebar****************/
+.pagination {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.pagination a {
+  border: 1px solid #ccc;
+  padding: 8px 18px;
+  border-radius: 3px;
+  color: #6e00bc;
+  transition: 0.3s;
+}
+.pagination a:hover {
+  background-color: #00e56e;
+  color: white;
+}
+
+/**********content************/
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #331b40;
+  float: right;
+  color: #fff;
+}
+
+footer .container div {
+  float: right;
+  text-align: center;
+  width: 32%;
+  margin: 5px 8px;
+}
+
+footer .container div h3 {
+  border-bottom: 1px dashed #fff;
+  padding: 10px 0px;
+}
+
+.buttom-menu ul {
+  width: 100%;
+  list-style: none;
+}
+
+.buttom-menu ul li a {
+  color: #fff;
+  padding: 2px;
+  display: block;
+  margin: 5px 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.social a {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px 5px;
+  display: inline-block;
+}
+
+.about h4 {
+  margin-top: 15px;
 }
